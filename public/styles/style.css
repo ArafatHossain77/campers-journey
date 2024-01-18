@@ -1,0 +1,815 @@
+* {
+    font-family: Mulish;
+    margin: 0;
+}
+main, header{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/*heaser css start*/
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-text {
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-size: 1.2rem;
+    transition: .5s;
+}
+nav li a:hover {
+    color: #FF5400;
+    font-weight: 700;
+}
+/*header css end*/
+/*banner css start*/
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../styles/images/banner.png);
+    text-align: center;
+    height: 500px;
+    border-radius: 8px;
+    background-position: center;
+}
+.banner-titel {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 106px;
+}
+.primary-pera {
+    color: #FFF;
+    line-height: 26px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 24px 0 48px 0;
+}
+.banner-input {
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.85);
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.banner-input input {
+    border: none;
+    outline: none;
+    padding: 16px 5px;
+    margin-right: 24px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+}
+.banner-input button {
+    border: none;
+    outline: none;
+    padding: 16px 35px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    color: #FFF;
+    font-weight: 700;
+    background: #FF5400;
+}
+/*banner css end*/
+
+/*popular tour start*/
+.popular-tour {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 30px;
+}
+.tour-contain {
+    width: 50%;
+    padding: 5px;
+}
+.tour-titel {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.tour-pera {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.tour-contain button {
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 14px 35px;
+    background-color: #FF5400;
+    border-radius: 8px;
+}
+.tour-img img{
+    width: 100%;
+}
+/*popular tour end*/
+/*destination start*/
+.destination {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.destination-titel {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.destination-pera {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    width: 60%;
+    margin: 16px auto;
+}
+.box1{
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../styles/images/Rectangle\ 5.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box2 {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../styles/images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box3 {
+    width: 100%;
+    height: 270px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../styles/images/Rectangle\ 6.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box4 {
+    width: 100%;
+    height: 270px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../styles/images/Rectangle\ 7.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box5 {
+    width: 100%;
+    height: 270px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url(../styles/images/kashmir.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box6 {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../styles/images/Rectangle\ 11.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box7 {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../styles/images/Rectangle\ 10.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box-text h2 {
+    position: relative;
+    top: calc(50% - 28px);
+    text-align: center;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.first-row {
+    display: grid;
+    grid-template-columns: 1.925fr 1.925fr;
+    gap: 24px;
+    margin-top: 24px;
+}
+.secound-row {
+    display: grid;
+    grid-template-columns: 1.27fr 1.6fr .9fr;
+    gap: 24px;
+    margin-top: 24px;
+}
+.third-row {
+    display: grid;
+    grid-template-columns: 1.55fr 2.2fr;
+    gap: 24px;
+    margin-top: 24px;
+}
+/*destination  end*/
+
+/*choose us start*/
+.choose-us {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.choose-titel {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.choose-pera {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    width: 55%;
+    margin: 24px auto;
+}
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.hotels {
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px 55px 30px 30px;
+}
+.service {
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px 55px 30px 30px;
+}
+.guarantee {
+    margin: 15px auto;
+    width: 42%;
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px 55px 30px 30px;
+}
+.card-titel {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+.card-pera {
+    color: #5A5A5D;
+    line-height: 26px;
+}
+/*choose us end*/
+
+/*Deals start*/
+.deals {
+    margin-bottom: 70px;
+}
+.deals-titel {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.deals-pera {
+    color: #5A5A5D;
+    line-height: 26px;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+}
+.deals1 {
+    margin-top: 20px;
+}
+.deal-img {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    border-radius: 16px;
+    background-image: url(../styles/images/Group\ 39.png);
+    background-position: center;
+    background-size: cover;
+}
+#deal-img {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    border-radius: 16px;
+    background-image: url(../styles/images/Group\ 40.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.deal-text  ul{
+    display: flex;
+    align-items: center;
+}
+#deal-text  ul{
+    display: flex;
+    align-items: center;
+}
+.deal-text ul li {
+    list-style: none;
+    color: #5A5A5D;
+    margin-right: 30px;
+}
+#deal-text ul li {
+    list-style: none;
+    color: #5A5A5D;
+    margin-right: 30px;
+}
+.deal-text {
+    width: 40%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    top: 13%;
+    right: 4%;
+    padding: 50px 70px 50px 50px;
+}
+#deal-text {
+    width: 40%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    padding: 50px 70px 50px 50px;
+}
+
+.orange {
+    color: #FF5400;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.deal-text-titel {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.deal-text-pera {
+    color: #5A5A5D;
+    line-height: 26px;
+}
+.deal-text-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.deal-text button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 25px;
+    background: #FF5400;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+#deal-text button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 25px;
+    background: #FF5400;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+/*Deals end*/
+/*perfect placr start*/
+
+.perfect-place {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.perfect-text {
+    width: 50%;
+}
+.perfect-titel  {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+.perfect-pera {
+    color: #5A5A5D;
+    line-height: 26px;
+    margin: 25px 0;
+}
+.perfect-place ul li{
+    color: #131318;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+.perfect-place button {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 10px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+.perfect-video {
+    width: 45%;
+}
+.perfect-video iframe{
+    border-radius: 16px;
+}
+
+/*perfect placr end*/
+/*blog start*/
+.blog {
+    text-align: center;
+}
+.blog-titel {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.blog-pera {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    width: 70%;
+    margin: 15px auto;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.card {
+    width: 100%;
+}
+.card img {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+}
+.card h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.card p {
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.card button {
+    border: none;
+    outline: none;
+    background: #FF5400;
+    padding: 5px 15px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+/*blog end*/
+/*news letter start*/
+.news-letter {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+.news-letter-text {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 35%;
+}
+.news-letter-titel {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.news-letter-pera {
+    color: #5A5A5D;
+    line-height: 26px;
+    margin: 16px 0;
+}
+.news-letter-hr {
+    background-color: #1313181A;
+    height: 1px;
+    margin-bottom: 16px;
+    border: none;
+}
+.news-letter-text input {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+    color: rgba(19, 19, 24, 0.30);
+}
+.news-letter-text button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 12px;
+}
+.news-letter-img {
+    position: relative;
+    width: 65%;
+}
+.news-letter-img img{
+    width: 100%;
+}
+.discount {
+    background: #FF5400;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 15%;
+    right: 3%;
+    width: 230px;
+    transform: rotate(-25deg);
+}
+.discount-titel {
+    color: #FFF;
+    font-size: 1.5rem;
+}
+.discount-pera {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+/*news letter end*/
+/*footer css start*/
+.footer-part {
+    padding: 110px 0;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo-text {
+    color: var(--Dark-01, rgba(255, 255, 255, 0.85));
+    font-family: Mulish;
+    font-size: 1.875rem;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.logo-text1 {
+    color: var(--Dark-01, rgb(231, 134, 75));
+    font-family: Mulish;
+    font-size: 1.875rem;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.logo-text span {
+    color: #FF5400;
+}
+.footer-pera {
+    color: #5A5A5D;
+    font-family: Mulish;
+    line-height: 26px;
+    width: 50%;
+    margin: 5px auto;
+}
+.footer-hr {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #1313181A;
+    height: 1px;
+    border: none;
+}
+.social-icon {
+    height: 30px;
+    padding: 30px 0;
+}
+.social-icon a {
+    height: 24px;
+    width: 24px;
+    color: #131318;
+    text-decoration: none;
+
+}
+.social-icon a i {
+    margin-right: 15px;
+}
+.copy-right {
+    color: #131318;
+    font-family: Inter;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+/*footer css end*/
+
+@media screen and (max-width:600px) {
+    nav
+    {
+        flex-direction: column;
+    }
+
+    .banner-titel {
+        font-size: 1.375rem;
+        padding-top: 32px;
+    }
+    .banner-input input {
+        margin-bottom: 24px;
+        display: block;
+        padding: 16px;
+        width: 90%;
+    }
+    .primary-pera {
+        font-size: .875rem;
+        line-height: 21px;
+        width: 80%;
+        padding: 20px 0 20px 0;}
+    .banner-input button {
+        width: 95%;
+    }
+    .popular-tour {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .tour-contain {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .tour-img {
+        margin: 0 auto;
+    }
+    .destination {
+        margin-bottom: 30px 0;
+    }
+    .destination-pera {
+        width: 90%;
+    }
+    .box1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box3 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box4 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box5 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box6 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box7 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .first-row {
+        grid-template-columns: 1fr;
+        margin: 20px auto;
+    }
+    .secound-row {
+        grid-template-columns: 1fr;
+        margin: 20px auto;
+    }
+    .third-row {
+        grid-template-columns: 1fr;
+        margin: 20px auto;
+    }
+    .choose-us {
+        margin-bottom: 30px;
+    }
+    .choose-pera {
+        width: 90%;
+    }
+    .card-row {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .guarantee {
+        width: 77%;
+    }
+
+    .deal-text {
+        width: 80%;
+        top: 20%;
+        left: 6%;
+        padding: 20px 20px 20px 20px;
+    }
+    #deal-text {
+        width: 80%;
+        top: 20%;
+        left: 6%;
+        padding: 20px 20px 20px 20px;
+    }
+    .perfect-place {
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .perfect-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .perfect-video {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card-container{
+        width: 90%;
+        flex-direction: column;
+
+    }
+    .news-letter {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .news-letter-text {
+        width: 78%;
+        margin: 0 auto;
+    }
+    .news-letter-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .discount {
+        bottom: 20%;
+        right: 8%;
+    }
+    .footer-part {
+        padding: 30px 0;
+    }
+    .footer-pera {
+        width: 70%;
+        font-size: 14px;
+    }
+    .social-icon {
+        padding: 10px 0;
+    }
+    .footer-hr {
+        width: 90%;
+    }
+    .copy-right {
+        font-size: 14px;
+        margin-top: 20px;
+    }
